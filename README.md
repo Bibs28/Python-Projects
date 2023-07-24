@@ -5,7 +5,8 @@
 - **If theres any feedback you can give to improve my current understanding and make my projects 
 
 ## Project 1 : Expense Tracker  
-- **Features: ## Features
+
+## Features
 
 - **Add Expenses:** Users can add their expenses to the tracker by entering the date, description, and amount spent. The expenses are then stored and used for calculations.
 
