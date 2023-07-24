@@ -4,7 +4,7 @@
 ## Welcome to my Python portfolio where I would have hopefully been able to demostrate and apply my knowledge of Python
 - **If theres any feedback you can give to improve my current understanding and make my projects 
 
-## Project 1 : Expense Tracker  
+## Project 1 : Expense Tracker  [View Expense Tracker on GitHub](https://github.com/Bibs/expense_tracker.py)
 
 ## Features
 
