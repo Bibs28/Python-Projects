@@ -47,7 +47,7 @@ def main():
             break
 
         if bet > balance:
-            print("You don't have enough balance to place that bet!")
+            print("You don't have enough money to place that bet!")
             continue
 
         payout = spin_slot_machine(bet)
