@@ -1,0 +1,67 @@
+import random
+
+SYMBOLS = ['Cherry', 'Bell', 'Lemon', 'Orange', 'Star', 'Skull']
+PAYOUTS = {
+    'Cherry': 3,
+    'Bell': 5,
+    'Lemon': 4,
+    'Orange': 4,
+    'Star': 6,
+    'Skull': 0 
+}
+
+def spin_slot_machine(bet_amount):
+    symbols = [random.choice(SYMBOLS) for _ in range(3)]
+
+    
+    print(f"\nSlot Machine Result: {' - '.join(symbols)}\n")
+
+    payout = calculate_payout(symbols, bet_amount)
+
+    return payout
+
+def calculate_payout(symbols, bet_amount):
+    if symbols[0] == symbols[1] == symbols[2]:
+        payout_ratio = PAYOUTS[symbols[0]]
+    else:
+        if symbols[0] == symbols[1] or symbols[0] == symbols[2] or symbols[1] == symbols[2]:
+            payout_ratio = 1
+        else:
+            payout_ratio = -1
+
+    payout_amount = bet_amount * payout_ratio
+
+    return payout_amount
+
+def main():
+    print("Welcome to the Slot Machine Game! Gamble Responsibly")
+
+    initial_balance = float(input("Enter your initial balance: $"))
+    balance = initial_balance
+
+    while balance > 0:
+        print("\nCurrent Balance: ${:.2f}".format(balance))
+        bet = float(input("Place your bet (or enter 0 to quit): $"))
+
+        if bet == 0:
+            break
+
+        if bet > balance:
+            print("You don't have enough balance to place that bet!")
+            continue
+
+        payout = spin_slot_machine(bet)
+
+        if payout > 0:
+            print(f"Congratulations! You won ${payout:.2f}!")
+        elif payout == 0:
+            print("Sorry, you didn't win anything.")
+        else:
+            print("Oops! You lost your bet.")
+
+        balance += payout
+
+    print("Game Over. Your final balance is ${:.2f}".format(balance))
+
+if __name__ == "__main__":
+    main()
