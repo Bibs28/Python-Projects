@@ -18,7 +18,7 @@
 
 
 
-## Project 2:  Slot Machine Game
+## Project 2:  Slot Machine Game  [View Expense Tracker on GitHub](https://github.com/Bibs28/Python-Projects/blob/5cfefe79be4fcfe4e042996bb112b62e5621839d/Slot_machine)
 
 Welcome to the Slot Machine Game! This is a simple text-based casino-style game developed in Python. The game allows you to try your luck by spinning the slot machine and matching symbols to win virtual coins.
 
