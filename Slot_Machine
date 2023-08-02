@@ -55,7 +55,7 @@ def main():
         if payout > 0:
             print(f"Congratulations! You won ${payout:.2f}!")
         elif payout == 0:
-            print("Sorry, you didn't win anything.")
+            print("Unlucky!")
         else:
             print("Oops! You lost your bet.")
 
