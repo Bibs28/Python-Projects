@@ -44,7 +44,7 @@ Welcome to the Slot Machine Game! This is a simple text-based casino-style game 
 
 
 
-## Project 3: Stock Ticker Dashboard: 
+## Project 3: Stock Ticker Dashboard: Stcoker Ticker Dashboard  [View Stcoker Ticker on GitHub](https://github.com/Bibs28/Python-Projects/blob/bdedf3747ec1cc7f76c6a4902c0efe520543c799/Stock%20Ticker%20dashboard.ipynb)
 
 The Stock Ticker Dashboard is a web application built using Dash that allows users to visualize stock price data for multiple stocks over a selected date range. This dashboard provides an interactive and user-friendly interface for exploring stock market trends.
 
