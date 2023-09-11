@@ -38,3 +38,34 @@ Welcome to the Slot Machine Game! This is a simple text-based casino-style game 
 - Interactive Gameplay: The game prompts you to place bets and displays the result of each spin.
 - Random Symbol Generation: The slot machine generates random symbols for each spin.
 - Payout Calculations: The game calculates payouts based on the matched symbols and payout ratios.
+
+
+
+## Project 3: 
+
+Stock Ticker Dashboard
+
+[View Stock Ticker Dashboard on GitHub](https://github.com/your-username/stock-ticker-web-app)
+
+## Overview
+
+The Stock Ticker Dashboard is a web application built using Dash that allows users to visualize stock price data for multiple stocks over a selected date range. This dashboard provides an interactive and user-friendly interface for exploring stock market trends.
+
+## Features
+
+- **Select Stocks:** Users can select one or more stocks from a predefined list to visualize their price data.
+
+- **Date Range:** Users can choose a date range, specifying a start and end date, to view historical stock prices within that period.
+
+- **Interactive Graphs:** The application displays stock price data as interactive graphs, making it easy to analyze trends and patterns.
+
+- **Submit and Update:** By clicking the "Submit" button, users can update the graph to reflect their stock and date range selections.
+
+- **Clear Visualization:** Users can clear the graph to start fresh and select new stocks and date ranges.
+
+## Prerequisites
+
+Before using the Stock Ticker Dashboard, ensure that you have the following prerequisites installed on your system:
+
+- [Python](https://www.python.org/downloads/) (Python 3.7 or higher)
+- [Jupyter Notebook](https://jupyter.org/install)
