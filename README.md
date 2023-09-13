@@ -67,9 +67,3 @@ The Stock Ticker Dashboard is a web application built using Dash that allows use
 
 - **Clear Visualization:** Users can clear the graph to start fresh and select new stocks and date ranges.
 
-## Prerequisites
-
-Before using the Stock Ticker Dashboard, ensure that you have the following prerequisites installed on your system:
-
-- [Python](https://www.python.org/downloads/) (Python 3.7 or higher)
-- [Jupyter Notebook](https://jupyter.org/install)
