@@ -67,14 +67,13 @@ The Stock Ticker Dashboard is a web application built using Dash that allows use
 
 - **Clear Visualization:** Users can clear the graph to start fresh and select new stocks and date ranges.
 
-## Project 4: Heart Disease Prediction Using Machine Learning
-[View Heart Disease Prediction on GitHub]((https://github.com/Bibs28/Python-Projects/blob/c696807c7eec29580bb0e0f7a9c88411c93fedf2/ML_Assignment.ipynb))
+## Project 4: Heart Disease Prediction Using Machine Learning [View Heart Disease Prediction on GitHub](https://github.com/Bibs28/Python-Projects/blob/c696807c7eec29580bb0e0f7a9c88411c93fedf2/ML_Assignment.ipynb)
 
 Welcome to the Heart Disease Prediction project! This Python-based project applies machine learning techniques to predict heart disease using a well-structured dataset. The aim is to leverage data analytics for early detection and diagnosis, enhancing healthcare outcomes through technological innovation.
 
 ### Features
 
-- **Data Preprocessing:** Rigorous data cleaning, encoding categorical data, and scaling numerical features to prepare the dataset for effective modeling.
+- **Data Preprocessing:** Rigorous data cleaning, encoding categorical data, and scaling numerical features to prepare the dataset for effective modelling.
 - **Exploratory Data Analysis (EDA):** Utilizing Matplotlib and Seaborn for visual analysis, creating histograms, box plots, and correlation matrix heatmaps to explore data relationships and distributions.
 - **Model Building and Evaluation:** Training models such as K-Nearest Neighbors, Random Forest, and Logistic Regression. Models are evaluated based on accuracy, precision, recall, F1-score, and Matthews correlation coefficient to ensure robust predictions.
 - **Principal Component Analysis (PCA):** Dimensionality reduction to visualize the most influential features and understand the data structure in two-dimensional space.
