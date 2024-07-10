@@ -1,8 +1,8 @@
 ## Missing Data Challenge
-## A. Moreno, F. Carocci, N. Malik, U. Afshar, 2024.
+
 
 #Working directory to access fo reproducibility
-mypath <- "/Users/francescacarocci/Desktop/BIO732P/"
+mypath <- "/Users/Nabib/Desktop/BIO732P/"
 
 #Verify that the path is set correctly
 print(mypath)
