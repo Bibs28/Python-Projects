@@ -95,7 +95,7 @@ The project highlights the potential of machine learning in preventive health di
 
 Machine learning's capacity to analyze complex patterns makes it invaluable for medical diagnostics. This project not only demonstrates the practical application of machine learning in predicting heart disease but also sets the stage for future advancements in medical technology.
 
-## Project 5: Missing Biological Data Challenge [View Missing Data Challenge on GitHub](https://github.com/Bibs28/Python-Projects/blob/c696807c7eec29580bb0e0f7a9c88411c93fedf2/ML_Assignment.ipynb)
+## Project 5: Missing Biological Data Challenge [View Missing Data Challenge on GitHub]([BIO732P Missing Data Code.R](https://github.com/Bibs28/Python-Projects/blob/caf8698895f8e8e1a25c4b48a0a5118b4fb29191/BIO732P%20Missing%20Data%20Code.R))
 
 Welcome to the Missing Biological Data Challenge project! This R-based project focuses on addressing missing values in biological datasets, specifically gene expression data in model organisms like mice. The goal is to apply various imputation methods to enhance data quality and reliability for accurate differential gene expression analysis.
 
