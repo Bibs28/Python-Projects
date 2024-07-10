@@ -95,11 +95,10 @@ The project highlights the potential of machine learning in preventive health di
 
 Machine learning's capacity to analyze complex patterns makes it invaluable for medical diagnostics. This project not only demonstrates the practical application of machine learning in predicting heart disease but also sets the stage for future advancements in medical technology.
 
-# Missing Biological Data Challenge
+## Project 5: Missing Biological Data Challenge [View Missing Data Challenge on GitHub](https://github.com/Bibs28/Python-Projects/blob/c696807c7eec29580bb0e0f7a9c88411c93fedf2/ML_Assignment.ipynb)
 
 Welcome to the Missing Biological Data Challenge project! This R-based project focuses on addressing missing values in biological datasets, specifically gene expression data in model organisms like mice. The goal is to apply various imputation methods to enhance data quality and reliability for accurate differential gene expression analysis.
 
-## Features
 
 ### Data Preprocessing
 - **Data Loading and Cleaning:** Loading datasets (`countdata5`, `countdata10`, and `countdata30`) and transposing them so that genes become columns and samples (mice) become rows. Columns containing only zero values are identified and removed to ensure meaningful analysis.
@@ -124,14 +123,14 @@ Welcome to the Missing Biological Data Challenge project! This R-based project f
 - **Venn Diagrams:** Creating Venn diagrams to visualize the overlap of upregulated and downregulated genes between different imputation methods and datasets using `ggvenn`.
 - **Bar Charts:** Comparing MAE and RMSE of different imputation methods across datasets using bar charts for performance evaluation.
 
-## Ethical Considerations
+### Ethical Considerations
 This project emphasizes responsible data handling, ensuring privacy and data security by using anonymized datasets, and adhering to ethical AI practices.
 
-## Computational Details
+### Computational Details
 - **Environment:** R 4.0.2
 - **Libraries:** Includes `naniar`, `ggplot2`, `dplyr`, `caret`, `VIM`, `tibble`, `impute`, `visdat`, `missForest`, `BiocManager`, `gprofiler2`, `EnhancedVolcano`, `ggvenn`, `RColorBrewer`, and `gridExtra`.
 
-## Results and Future Directions
+### Results and Future Directions
 The project demonstrates effective handling of missing data, crucial for accurate downstream analyses. Key findings include:
 - **Mean Imputation:** Exhibited high MAE values (up to 700.71) and RMSE values (up to 5494.11), indicating poor performance.
 - **Random Forest Imputation:** Showed the lowest MAE (as low as 108.31) and RMSE (as low as 1282.36), highlighting superior accuracy.
@@ -139,7 +138,7 @@ The project demonstrates effective handling of missing data, crucial for accurat
 
 Future research directions include exploring more advanced imputation techniques, increasing sample sizes, improving computational resources, and developing efficient imputation algorithms.
 
-## Conclusion
+### Conclusion
 Handling missing data is vital for the integrity of biological analyses. This project showcases multiple imputation techniques, providing a robust framework for improving data quality and reliability in biological research. By addressing these challenges, researchers can enhance the accuracy and validity of their findings, contributing to a deeper understanding of complex biological systems and the genetic basis of various conditions.
 
 For more details, refer to the scripts and visualizations provided in the repository.
